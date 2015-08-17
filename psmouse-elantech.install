@@ -1,0 +1,8 @@
+post_install() {
+	dkms autoinstall
+}
+
+post_upgrade() {
+	post_install
+}
+
